@@ -5,6 +5,7 @@ const HomePage = (props) => {
     return (
         <div className="homepage">
             <Directory></Directory>
+            <button onClick={()=>props.history.push('/dummy')}>Dummy</button>
         </div>
     )
 }
