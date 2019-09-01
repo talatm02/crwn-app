@@ -20,7 +20,6 @@ class SignOut extends React.Component {
         event.preventDefault();
         
         const { email, displayName, password, confirmPassword } = this.state;
-        console.log(password,confirmPassword);
 
         if (password != confirmPassword) {
             alert("Password does not match");
