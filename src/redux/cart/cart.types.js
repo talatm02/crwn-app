@@ -1,6 +1,8 @@
 const CartType = {
     TOGGLE_CART_HIDDEN: 'TOGGLE_CART_HIDDEN',
-    ADD_ITEM: 'ADD_ITEM'
+    ADD_ITEM: 'ADD_ITEM',
+    REMOVE_ITEM: 'REMOVE_ITEM',
+    SUBSTRACT_ITEM: 'SUBSTRACT_ITEM'
 }
 
 export default CartType;
